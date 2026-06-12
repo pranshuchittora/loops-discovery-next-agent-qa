@@ -17,6 +17,7 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 - [Verification & Guardrails](#verification--guardrails)
 - [State & Memory](#state--memory)
 - [Cost Control](#cost-control)
+- [Related Lists](#related-lists)
 - [Communities](#communities)
 
 ## Concepts & Guides
@@ -29,9 +30,10 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 
 ## Origin Posts & Talks
 
-- [Peter Steinberger's loop tweet](https://x.com/steipete) - The two sentences that named the trend: design loops that prompt your agents.
-- Boris Cherny on loops - "I don't prompt Claude anymore. I have loops running. My job is to write loops." Talk clips circulating from June 2026.
-- Addy Osmani on loop engineering - Framing loops as one level above agent harness engineering.
+- [Peter Steinberger's loop tweet](https://x.com/steipete/status/2063697162748260627) - The two sentences that named the trend: you should be designing loops that prompt your agents.
+- [Boris Cherny on loops](https://x.com/0xMovez/status/2064047579499770218) - "I don't prompt Claude anymore. I create loops — and the loops do the work. My job is to create loops."
+- [What agent looping actually is (@shannholmberg)](https://x.com/shannholmberg/status/2063924108535197842) - The most-shared primer from the original thread.
+- [One-off loops vs forever loops (@kunchenguid)](https://x.com/kunchenguid/status/2064039033152692323) - A no-BS taxonomy of loops from real production use.
 
 ## Loop Patterns
 
@@ -48,13 +50,13 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 
 ## Runtimes & Harnesses
 
-- [Claude Code](https://docs.claude.com) - Agentic CLI with `/goal` loops and scheduled runs; the reference runtime for most loop writing today.
-- [OpenClaw](https://github.com) - Open-source agent runtime by the author of the tweet that named the trend.
+- [Claude Code](https://code.claude.com/docs/en/goal) - Agentic CLI with built-in `/goal` condition loops; the reference runtime for most loop writing today.
+- [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal agent runtime by the author of the tweet that named the trend.
 - [obra/superpowers](https://github.com/obra/superpowers) - Composable skills that give loops engineering discipline: TDD, subagent review, git worktrees.
 
 ## Scheduling & Triggers
 
-- cron - Still the backbone of most production loops.
+- [Claude Code `/loop` and `/schedule`](https://code.claude.com/docs/en/scheduled-tasks) - Interval loops in the terminal and cron Routines that run in the cloud.
 - CI triggers (on push / on schedule) - Loops that live in GitHub Actions.
 - Event triggers - Webhooks, new-issue events, GSC data drops.
 
@@ -73,6 +75,11 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 
 - Token budgets per cycle - Declare expected cost up front; kill cycles that exceed it.
 - Exit conditions - No exit, no loop — just a bill.
+
+## Related Lists
+
+- [serenakeyitan/awesome-agent-loops](https://github.com/serenakeyitan/awesome-agent-loops) - Copy-paste `/loop`, `/goal` and `/schedule` commands sourced from X power users.
+- [loops!](https://loops.elorm.xyz/loops) - Searchable catalog of 40+ ready-to-copy loops for Claude Code, Cursor and Codex.
 
 ## Communities
 
