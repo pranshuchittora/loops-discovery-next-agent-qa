@@ -53,10 +53,14 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 - [Claude Code](https://code.claude.com/docs/en/goal) - Agentic CLI with built-in `/goal` condition loops; the reference runtime for most loop writing today.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal agent runtime by the author of the tweet that named the trend.
 - [obra/superpowers](https://github.com/obra/superpowers) - Composable skills that give loops engineering discipline: TDD, subagent review, git worktrees.
+- [openclaw-code-agent](https://github.com/goldmar/openclaw-code-agent) - Runs Claude Code, Codex and OpenCode as managed background sessions with plan approval, worktree isolation and merge/PR follow-through.
 
 ## Scheduling & Triggers
 
-- [Claude Code `/loop` and `/schedule`](https://code.claude.com/docs/en/scheduled-tasks) - Interval loops in the terminal and cron Routines that run in the cloud.
+- [Claude Code Routines](https://claudeapi.com/en/blog/dev-guides/claude-code-routines-cloud-automation-2026/) - Cloud loops (research preview, April 2026): schedule, API and GitHub-webhook triggers run on Anthropic's infra even with your laptop closed.
+- [Claude Code `/loop` and `/schedule`](https://code.claude.com/docs/en/scheduled-tasks) - Session-scoped interval loops in the terminal; `/schedule` now creates cloud Routines.
+- [`/loop` vs Desktop vs Cloud vs cron](https://wmedia.es/en/tips/claude-code-schedule-vs-loop-vs-cron) - When to reach for each: open-session, machine-on, or fully hosted.
+- [Headless `claude -p` on system cron](https://www.verdent.ai/guides/claude-code-loop-command) - Let the OS drive the agent on a timer with `--allowedTools` for unattended runs.
 - CI triggers (on push / on schedule) - Loops that live in GitHub Actions.
 - Event triggers - Webhooks, new-issue events, GSC data drops.
 
