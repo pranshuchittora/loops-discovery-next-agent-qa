@@ -1,0 +1,24 @@
+# Sources for the list-maintenance loop. One per line. '#' = comment.
+# Keep this list SHORT and high-signal. Quality of sources = quality of the list.
+
+## GitHub topic searches (handled by gh CLI in the loop, listed here for reference)
+# topic:loop-engineering
+# topic:agent-loops
+
+## RSS / Atom feeds (compliant, zero-risk)
+https://addyo.substack.com/feed
+https://www.pulumi.com/blog/feed.xml
+# add devrel / engineering blogs that cover loop engineering here
+
+## Official changelogs
+https://releasebot.io/updates/openclaw
+# Claude Code / Codex changelog feeds when available
+
+## X via RSS bridge ONLY (short allowlist — never open-ended scraping)
+# Use a Nitter/RSS-bridge instance you trust. Accounts:
+# steipete, bcherny, addyosmani
+# e.g. https://<your-nitter-instance>/steipete/rss
+
+## Competitor lists to diff (the loop fetches and compares)
+https://github.com/serenakeyitan/awesome-agent-loops
+https://loops.elorm.xyz/loops

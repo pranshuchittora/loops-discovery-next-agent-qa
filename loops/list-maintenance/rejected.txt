@@ -1,0 +1,3 @@
+# Blacklist: hosts/URLs you've declined. The loop will never re-suggest these.
+# One per line. Add to this whenever you delete a line from a discovery PR.
+spammy-example.com
