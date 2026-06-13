@@ -27,7 +27,7 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 - [Loop Engineering: Design Coding Agent Loops That Run While You Sleep](https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026) - From ReAct and ralph to `/goal` and `/loop` in Claude Code, with cron-driven examples.
 - [Loop Engineering: The Guide for AI Agents](https://lushbinary.com/blog/loop-engineering-ai-coding-agents-guide/) - The five building blocks of a loop (plus memory), mapped to Claude Code and Codex.
 - [Loop Engineering (Cobus Greyling)](https://cobusgreyling.medium.com/loop-engineering-62926dd6991c) - How loops relate to prompt, context and harness engineering.
-
+- [Loop Engineering (Addy Osmani)](https://addyosmani.com/blog/loop-engineering/) - The definitive long-form piece: a loop's five building blocks (automations, worktrees, skills, connectors, sub-agents) plus memory, mapped onto both Claude Code and Codex — and why verification and token cost stay your job.
 ## Origin Posts & Talks
 
 - [Peter Steinberger's loop tweet](https://x.com/steipete/status/2063697162748260627) - The two sentences that named the trend: you should be designing loops that prompt your agents.
