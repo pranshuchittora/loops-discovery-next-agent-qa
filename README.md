@@ -54,6 +54,7 @@ Maintained by [agentloophub.com](https://agentloophub.com) — the loop template
 - [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal agent runtime by the author of the tweet that named the trend.
 - [obra/superpowers](https://github.com/obra/superpowers) - Composable skills that give loops engineering discipline: TDD, subagent review, git worktrees.
 - [openclaw-code-agent](https://github.com/goldmar/openclaw-code-agent) - Runs Claude Code, Codex and OpenCode as managed background sessions with plan approval, worktree isolation and merge/PR follow-through.
+- [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay) - Exposes bounded local Claude Code, Codex, or automation capabilities to teammates and agents over a trusted LAN.
 
 ## Scheduling & Triggers
 
